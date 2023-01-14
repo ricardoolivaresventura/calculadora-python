@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    docker {
+        image 'python:3'
+      }
     stages {
         stage("Unit test"){
             steps {
