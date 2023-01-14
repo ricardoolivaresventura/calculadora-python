@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Unit test"){
             steps {
-                sh "hola"
+                echo "hi"
             }
         }
     }
